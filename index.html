@@ -1,0 +1,142 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+<script src="https://kit.fontawesome.com/38acd59cef.js" crossorigin="anonymous"></script>  
+<link rel="stylesheet" href="style.css" type="text/css">
+<h1><i class="fas fa-house-damage"></i> Gentrification survey</h1>
+</head> 
+<body>
+    <form>
+    
+    <p>1.How old are you?</p>
+  <label for="Age">Age:</label>
+  <select name="Age" id="Age">
+    <option value="18-20">18-20</option>
+    <option value="21-24">21-24</option>
+    <option value="25-29">25-29</option>
+    <option value="30 & Above">30 & Above</option>
+    
+    
+    
+    <p>What is the highest level of education you have completed?</p>
+    <label for="Education level"> Education level:</label>
+    <select name="Education level" id="Education level">
+    <p>2.What is the highest level of education you have completed?</p> 
+  <label for="Education level">Education level:</label>
+  <select name="Education level" id="Education level">
+    <option value="Did not complete high school">Did not complete high school</option>
+    <option value="Completed high school"> Completed high school</option>
+    <option value="Associate degree">Associate degree</option>
+    <option value="Bachelor's degree">Bachelor's degree</option>
+    <option value="Some graduate school">Some graduate school</option>
+    <option value="None">None</option>
+    </select>
+    
+    
+    <div> 
+      <p>3.What is your approximate average household income?</p>
+      <div> 
+      <input type="range" min-"24,999" max="200,000" value="15,000" class="slider" id="myrange"
+      <label for="myrange"></label>
+    </div>   
+    
+    <div>
+    <p>4.In what type of community do you live?</p>
+    <div> 
+      <input type="radio"id="community-1" name="community" value="radio">
+      <label for="community-1">Suburban community</label>
+    </div>
+    <div>
+      <input type="radio" id="community-2" name="community" value="radio">
+      <label for="community-2">City or urban community</label>
+    </div>
+    <div>
+      <input type="radio" id="community-3" name="community" value="radio">
+      <label for="community-three">Rural community</label>
+    </div> 
+    
+    <div>
+    <p>5.Gentrification is the "process of urban development where a neighborhood or specific area of a city develops in a short period of time." Have you had any experience with gentrification?</p>
+    <div>
+      <input type="radio" id="answer-1" name="same" value="radio">
+      <label for="answer-1">Yes</label>
+    </div>
+    <div>
+      <input type="radio" id="answer-2" name="same"  value="radio">
+      <label for= "answer-2">No</label>
+    </div>
+    <div>
+      <input type="radio" id="answer-3" name="same" value="radio">
+      <label for="answer-3">Not sure</label>
+    </div> 
+    
+    <div> 
+      <p>6.Have you been negatively affected by gentrification?</p>
+      <div> 
+        <input type=radio id="yes" name="answer" value="radio"
+        <label for="yes">Yes</label>
+      </div>
+      <div>
+        <input type=radio id=no name="answer" value=radio
+        <label for="no">No</label>
+      </div>
+    </div> 
+    
+    <div>
+      <p>7.Have you benefitted from gentrification?</p>
+      <div>
+        <input type=radio id="yes" name="idk" value="radio"
+        <label for="yes">Yes</label>
+      </div> 
+      <div>
+       <input type=radio id="no" name="idk" value="radio"
+        <label for="no">No</label>
+       </div>  
+    </div> 
+    <div>
+      <p>8.Have you seen any of the following signs of gentrification in your neighborhood? Check all that apply </p>
+        <div>
+          <input type="checkbox" id= name="hood">
+          <label for="Opening of new businesses, restaurants, retail shops, etc. ">Opening of new businesses, restaurants, retail shops, etc. </label>
+        </div>
+        <div>
+          <input type="checkbox" id= name="hood">
+          <label for="Newer housing options (both for sale and lease)">Newer housing options (both for sale and lease)</label>
+        </div>
+        <div>
+          <input type="checkbox" id= name="hood">
+          <label for="Increased housing prices">Increased housing prices</label>
+        </div>
+        <div>
+          <input type="checkbox" id= name="hood">
+          <label for="Displacement of longtime residents">Displacement of longtime residents</label>
+        </div>
+    </div>
+    <div>
+      <p>9.Gentrification is necessary for urban redevelopment and is a fair practice</p>
+      <div>
+        <input type=radio id=agree name="agree" value="radio"
+        <label for="Strongly agree">Strongly agree</label>
+        </div>
+        <div>
+        <input type=radio id=agree name="agree" value="radio"
+        <label for="Agree">Agree</label>
+        </div>
+        <div>
+        <input type=radio id=agree name="agree" value="radio"
+        <label for="Neither agree nor disagreee">Neither agree nor disagree</label>
+        </div>
+        <div>
+        <input type=radio id=agree name="agree" value="radio"
+        <label for="disagreee">disagree</label>
+        </div>
+        <div>
+        <input type=radio id=agree name="agree" value="radio"
+        <label for="Strongly disagreee">Strongly disagree</label>
+        </div>
+    </div>
+    
+    <input type="Submit" value="Submit">
+    </form> 
+</body> 
