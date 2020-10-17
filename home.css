@@ -6,7 +6,7 @@
 }
 .carousel__image{
     width: 100%;
-    height: 100%;
+    height:20em;
     object-fit: cover;
 }
 .carousel__track-container {
@@ -38,4 +38,23 @@
 }
 .carousel__button--right{
     left: -40px;
+} 
+li{
+    width: 100px;
+}  
+nav ul{
+    display:flex;
+    position: absolute;
+    right: 150px;
+    
+} 
+
+ body{
+    background-color:white
+    ;
+ } 
+ 
+ h1{ 
+    width:50%;
+    
 }
